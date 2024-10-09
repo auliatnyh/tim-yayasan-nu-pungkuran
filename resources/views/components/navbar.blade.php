@@ -37,7 +37,6 @@
     <span class="sr-only">Close modal</span>
 </button> --}}
 
-
 <nav class="bg-white fixed w-full z-30 top-12" x-data="{ isOpen: false }">
     <div class="mx-auto max-w-7xl px-4 sm:px-30 lg:px-30 py-2">
         <div class="flex h-30 items-center justify-between">
@@ -56,6 +55,8 @@
 
                             {{-- beranda end --}}
 
+
+
                             {{-- agar bisa diklik gantian dan diklik dimanapun untuk menutup --}}
                             <div x-data="{ openDropdown: null }"class="ml-5 flex items-baseline space-x-4"
                                 @click.outside="openDropdown = null" @scroll.outside="openDropdown = null">
@@ -66,17 +67,19 @@
                                 <div class="relative inline-block">
                                     <div @mouseenter="openDropdown = 'pendidikan'; isHovering = true"
                                         @mouseleave="isHovering = false; setTimeout(() => { if (!isHovering) openDropdown = null }, 300)">
-                                        <button type="button"
-                                            class="flex items-center gap-x-1 text-sm font-medium leading-5 text-black-500"
-                                            aria-expanded="false" id="dropdown-btn-2">
-                                            Pendidikan
-                                            <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20"
-                                                fill="currentColor" aria-hidden="true">
-                                                <path fill-rule="evenodd"
-                                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </button>
+                                        <x-nav-link to="/pendidikan" className="flex items-center">
+                                            <button type="button"
+                                                class="flex items-center gap-x-1  text-md font-medium leading-5 text-black-500"
+                                                aria-expanded="false" id="dropdown-btn-2">
+                                                Pendidikan
+                                                <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20"
+                                                    fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </button>
+                                        </x-nav-link>
                                     </div>
                                     <div x-show="openDropdown === 'pendidikan'"
                                         x-transition:enter="transition ease-out duration-200"
@@ -89,15 +92,15 @@
                                         @mouseenter="isHovering = true"
                                         @mouseleave="isHovering = false; setTimeout(() => { if (!isHovering) openDropdown = null }, 200)">
                                         <div class="p-4">
-                                            <div
-                                                class="group relative flex items-center gap-x-6 rounded-lg  p-2 text-sm leading-2 hover:bg-gray-50">
+                                            <div @click="selectedOption = 'sd'; openDropdown = null"
+                                                class="group relative flex items-center gap-x-6 rounded-lg p-2 text-sm leading-2 hover:bg-gray-50">
                                                 <div class="flex-auto">
                                                     <a href="/sd" class="block font-semibold text-gray-900">
                                                         SD
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div
+                                            <div @click="selectedOption = 'smp'; openDropdown = null"
                                                 class="group relative flex items-center gap-x-6 rounded-lg p-2 text-sm leading-2 hover:bg-gray-50">
                                                 <div class="flex-auto">
                                                     <a href="/smp" class="block font-semibold text-gray-900">
@@ -110,22 +113,23 @@
                                 </div>
                                 {{-- pendidikan end --}}
 
-
                                 {{-- informasi  --}}
-                                <div class="relative inline-block">
+                                <div x-data="dropdown - 2" class ="relative inline-block">
                                     <div @mouseenter="openDropdown = 'informasi'; isHovering = true"
                                         @mouseleave="isHovering = false; setTimeout(() => { if (!isHovering) openDropdown = null }, 300)">
-                                        <button type="button"
-                                            class="flex items-center gap-x-0 text-sm font-medium leading-5 text-black-500"
-                                            aria-expanded="false" id="dropdown-btn-2">
-                                            Informasi
-                                            <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20"
-                                                fill="currentColor" aria-hidden="true">
-                                                <path fill-rule="evenodd"
-                                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </button>
+                                        <x-nav-link to="/informasi" className="flex items-center">
+                                            <button type="button"
+                                                class="flex items-center gap-x-1 text-md ont-medium leading-5 text-black-500"
+                                                aria-expanded="false" id="dropdown-btn-2">
+                                                Informasi
+                                                <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20"
+                                                    fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </button>
+                                        </x-nav-link>
                                     </div>
                                     <div x-show="openDropdown === 'informasi'"
                                         x-transition:enter="transition ease-out duration-200"
@@ -138,15 +142,16 @@
                                         @mouseenter="isHovering = true"
                                         @mouseleave="isHovering = false; setTimeout(() => { if (!isHovering) openDropdown = null }, 200)">
                                         <div class="p-4">
-                                            <div
-                                                class="group relative flex items-center gap-x-6 rounded-lg p-2 text-sm leading-1 hover:bg-gray-50">
+                                            <div @click="selectedOption = 'agenda'; openDropdown = null"
+                                                :class="{ 'bg-blue-500 text-white': selectedOption === 'agenda', 'hover:bg-gray-50': selectedOption !== 'agenda' }"
+                                                class="group relative flex items-center gap-x-6 rounded-lg p-2 text-sm leading-2">
                                                 <div class="flex-auto">
                                                     <a href="/agenda" class="block font-semibold text-gray-900">
                                                         Agenda
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div
+                                            <div @click="selectedOption = 'ppdb'; openDropdown = null"
                                                 class="group relative flex items-center gap-x-6 rounded-lg p-2 text-sm leading-1 hover:bg-gray-50">
                                                 <div class="flex-auto">
                                                     <a href="/ppdb" class="block font-semibold text-gray-900">
@@ -154,6 +159,10 @@
                                                     </a>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div x-show="selectedOption" class="mt-2">
+                                            <span class="text-sm text-gray-700">Selected: <strong
+                                                    x-text="selectedOption"></strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -166,6 +175,21 @@
 
         </div>
     </div>
+
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('dropdown-2', () => ({
+                openDropdown: false,
+                selectedOption: null,
+                selectOption(option) {
+                    this.selectedOption = option;
+                    this.openDropdown = false;
+                    // Navigate to the selected option's route
+                    window.location.href = `/${option}`;
+                }
+            }));
+        });
+    </script>
 
 
     <div class="-mr-2 flex md:hidden">
@@ -231,6 +255,8 @@
             </div>
         </div>
     </div>
+
 </nav>
+
 <main class="mt-36">
 </main>
