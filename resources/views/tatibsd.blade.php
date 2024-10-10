@@ -5,34 +5,16 @@
     </h1>
     <div class ="flex flex-auto px-20 justify-center align-center mb-20">
         <ul class="max-w-full space-y-3 text-black-500 list-disc list-inside dark:text-black-400">
-            <li>
-                Dilarang memakai perhiasan/aksesoris bagi laki-laki, memakai perhiasan yang berlebihan bagi Perempuan
-                dan mengecat rambut dan kuku
-            </li>
-            <li>
-                Dilarang ber make up dan memakai contact lens berwarna
-            </li>
-            <li>
-                Dilarang merokok, meminum minuman keras, dan mengkonsumsi narkoba
-            </li>
-            <li>
-                Dilarang berambut panjang (laki-laki) atau mencukur gundul (laki-laki), model rambut yang tidak sesuai
-                dengan tampilan anak sekolah (laki-laki) dan bagi siswa perempuan yang berambut panjang melebihi bahu
-                harus diikat
-            </li>
-            <li>
-                Dilarang memainkan/mengoperasikan HP/mengecas HP sejenisnya ketika sedang belajar kecuali ada tugas yang
-                berhubungan dengan pelajaran dalam bimbingan guru tersebut
-            </li>
-            <li>
-                Dilarang membawa kendaraan bermotor
-            </li>
-            <li>
-                Dilarang masuk genk/organisasi selain OSIS
-            </li>
-            <li>
-                Dilarang melakukan BULLYING fisik maupun nonfisik
-            </li>
+            <li>Siswa dilarang meninggalkan kelas tanpa ijin. </li>
+            <li>Siswa dilarang membuat keributan di dalam dan di luar kelas. </li>
+            <li>Siswa dilarang makan/minum di dalam kelas saat pelajaran berlangsung. </li>
+            <li>Siswa dilarang membeli makanan /minuman di luar halaman sekolah. </li>
+            <li>Siswa dilarang membawa senjata tajam, mainan yang tidak ada kaitannya dengan proses belajar mengajar. </li>
+            <li>Siswa dilarang membawa /menghisap rokok di sekolah maupun di luar sekolah.</li>
+            <li>Siswa dilarang mencorat-coret semua fasilitas sekolah (tembok, meja, kursi) dsb. </li>
+            <li>Siswa dilarang membawa Tip Ex ke sekolah. </li>
+            <li>Siswa dilarang naik sepeda di halaman sekolah saat masuk maupun keluar sekolah. </li>
+            <li>Siswa dilarang membawa telepon genggam (HP). </li>
         </ul>
     </div>
 </x-layoutsd>

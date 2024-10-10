@@ -43,26 +43,23 @@
     <img class="mb-3 px-20 h-30 w-29 shadow-lg rounded-lg shadow-gray-500/20" src="/img/profilyayasan.png" alt="image description">
 </div>
 
-<!-- Visi & Misi Section -->
-<section id="visi-misi" class="py-12 bg-white">
+ <!-- Visi & Misi Section -->
+ <section id="visi-misi" class="py-12 bg-white">
     <div class="w-full px-8 lg:px-20">
-        <h2 class="text-3xl font-bold text-green-700 mb-6 text-center">Visi & Misi</h2> <!-- Mengubah ukuran heading menjadi lebih kecil -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-auto max-w-6xl">
-
+        <h2 class="text-4xl font-bold text-green-900 mb-6 text-center">Visi & Misi</h2>
+        <div class="text-left mx-auto max-w-6xl">
             <!-- Visi Section -->
-            <div class="bg-green-300 border border-green-700 rounded-lg p-6 w-full flex items-center justify-center text-center">
-                <div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-4">Visi</h3> 
-                    <p class="text-base text-gray-700"> 
-                        Menjadi lembaga pendidikan yang unggul dalam mencetak generasi yang beriman, bertakwa, berakhlakul karimah, serta mampu bersaing di era global, berlandaskan nilai-nilai Islam Ahlussunnah Wal Jamaah.
-                    </p>
-                </div>
+            <div class="bg-green-300 border border-green-700 rounded-lg p-6 mb-6 w-full">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Visi</h3>
+                <p class="text-lg text-gray-700 mb-4">
+                    Menjadi lembaga pendidikan yang unggul dalam mencetak generasi yang beriman, bertakwa, berakhlakul karimah, serta mampu bersaing di era global, berlandaskan nilai-nilai Islam Ahlussunnah Wal Jamaah.
+                </p>
             </div>
 
             <!-- Misi Section -->
-            <div class="bg-green-200 border border-green-700 rounded-lg p-6 w-full">
-                <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Misi</h3> 
-                <ul class="list-disc list-inside text-base text-gray-700 space-y-4"> 
+            <div class="bg-green-200 border border-green-700 rounded-lg p-6 mb-6 w-full">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Misi</h3>
+                <ul class="list-disc list-inside text-lg text-gray-700 space-y-4">
                     <li>Menyelenggarakan pendidikan berbasis akhlakul karimah.</li>
                     <li>Meningkatkan kualitas tenaga pendidik profesional dan Islami.</li>
                     <li>Mendorong prestasi akademik dan non-akademik dengan nilai keislaman.</li>

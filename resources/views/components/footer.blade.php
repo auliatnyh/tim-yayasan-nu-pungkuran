@@ -67,7 +67,7 @@
             <p>Jl. K.H. Wahid Hasyim No.390, Kauman, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah
             </p>
             <p class="mt-2">Telp: (024) 3580031</p>
-            <p class="mt-2">Email: <a href="sdpungkuran@gmail.com" class="underline">sd.pungkuran@gmail.com</a>
+            <p class="mt-2">Email: <a href="sdpungkuran@gmail.com" class="underline">sdi.nupungkuran2020@gmail.com</a>
             </p>
             <div class="flex space-x-4 mt-3">
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@
             <p>Jl. K.H. Wahid Hasyim No.390, Kauman, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah
             </p>
             <p class="mt-2">Telp: (024) 3580031</p>
-            <p class="mt-2">Email: <a href="sdpungkuran@gmail.com" class="underline">sd.pungkuran@gmail.com</a>
+            <p class="mt-2">Email: <a href="sdpungkuran@gmail.com" class="underline">smphas3@gmail.com</a>
             </p>
             <div class="flex space-x-4 mt-3">
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"

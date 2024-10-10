@@ -30,18 +30,18 @@
             <span class="mr-2">Nama Pengguna</span>
             <div>
                 <button type="button" class="inline-flex justify-center text-sm font-medium text-white hover:underline focus:outline-none" id="menu-button" aria-expanded="true" aria-haspopup="true">
-                    <i class="fas fa-user-circle text-2xl"></i>
+                    <i class="fa-solid fa-circle-user"></i>
                     <i class="fas fa-chevron-down ml-2"></i>
                 </button>
             </div>
-
+        
             <!-- Dropdown menu -->
             <div class="absolute right-0 z-10 mt-2 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 dropdown-menu" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                 <div class="py-1" role="none">
                     <a href="/logout" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Log Out</a>
                 </div>
             </div>
-        </div>
+        </div>        
     </div>
 
     <!-- Tabs -->
