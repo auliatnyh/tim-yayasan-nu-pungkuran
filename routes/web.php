@@ -26,6 +26,10 @@ Route::get('/agenda', function () {
     return view('agenda', ['title' => 'agenda']);
 });
 
+Route::get('/artikel', function () {
+    return view('artikel', ['title' => 'artikel']);
+});
+
 
 // sub menu smp
 
