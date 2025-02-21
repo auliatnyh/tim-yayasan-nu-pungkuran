@@ -4,7 +4,7 @@
 <div id="carousel" class="relative">
     <div class="overflow-hidden rounded-lg">
         <div class="relative w-full">
-            <img src="/img/smp.png" alt="Gambar 1" class="w-full h-100 object-cover"> <!-- Mengatur tinggi gambar -->
+            <img src="/img/fotosmp.png" alt="Gambar 1" class="w-full h-100 object-cover"> <!-- Mengatur tinggi gambar -->
             <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex flex-col items-center justify-center"> <!-- Menambahkan flex-col untuk pengaturan vertikal -->
                 <h2 class="text-white text-4xl font-bold mb-4">Selamat Datang di SMP HASANUDDIN 3</h2>
                 <!-- Tombol Daftar Sekarang -->
@@ -20,13 +20,16 @@
 {{-- sambutan --}}
 <h3 class="py-5 mt-10 text-center text-3xl font-bold text-green-900 dark:text-gray-400">Sambutan Kepala Sekolah</h3> <!-- Margin top ditambahkan di sini -->
 <div class="grid grid-cols-1 gap-3 sm:grid-cols-3 mx-20">
-    <img class="mb-3 px-20 h-30 w-29 shadow-lg rounded-lg shadow-gray-500/20" src="/img/kepsek.png" alt="image description">
+    <img class="mb-3 px-20 h-30 w-29 shadow-lg rounded-lg shadow-gray-500/20" src="/img/kepseksmp.png" alt="image description">
     <div class="col-span-2">
         <p class="mb-10 px-20 justify-between text-lg font-normal text-gray-500 dark:text-gray-400">
             Assalamu’alaikum warahmatullahi wabarakatuh,
-            <br><br> Selamat datang di SMP HASANUDDIN 3. Kami bersyukur atas dukungan dan kerja sama dari semua pihak dalam mewujudkan visi pendidikan kami. Di sini, kami berkomitmen untuk menyediakan lingkungan belajar yang berkualitas dan berlandaskan nilai-nilai keagamaan.
-            <br><br> Terima kasih atas kepercayaan Anda. Mari bersama-sama kita wujudkan pendidikan yang bermanfaat dan bermakna.
-            <br><br> Wassalamu’alaikum warahmatullahi wabarakatuh.
+            <br><br> Puji syukur kami panjatkan kepada Allah Swt atas rahmat dan hidayah-Nya, sehingga warga SMP Hasanuddin 3 (SPEHASTIG) dapat terus berbagi dan bekerja cerdas dalam dunia pendidikan.
+            <br><br> Perkembangan teknologi informasi dan komunikasi, terutama internet, telah menjadi kebutuhan pokok bagi masyarakat, termasuk dalam pendidikan. Tantangan bagi dunia pendidikan adalah mengimbangi perubahan ini dengan pembelajaran berbasis digital. Penguasaan teknologi dalam proses pembelajaran menjadi tolok ukur kompetensi dan profesionalisme pendidik untuk memenuhi kebutuhan peserta didik.
+            <br><br> Dalam menghadapi tantangan ini, SMP Hasanuddin 3 telah membentuk Tim IT yang bertugas mengelola inovasi pembelajaran, termasuk peluncuran website sekolah ini. Harapan kami, website ini dapat menjadi sumber informasi publik tentang perkembangan SMP Hasanuddin 3, sarana pengembangan diri bagi tenaga edukatif dan peserta didik, serta sebagai jembatan komunikasi antara sekolah dan masyarakat.
+            <br><br> Kami akan terus memperbarui informasi secara berkala, dan dukungan dari pengunjung sangat kami harapkan untuk evaluasi dan pengembangan sekolah di masa mendatang.
+            <br><br> Terima kasih.
+            <br><br> Wassalamu alaikum wr wb.
         </p>
     </div>
 </div>
@@ -81,7 +84,7 @@
         <h2 class="text-4xl font-bold text-green-700 mb-6">Daftar Guru & Karyawan</h2>
         <div class="flex flex-wrap justify-center gap-6">
             <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru1.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
+                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/gurusmp1.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
                 <figcaption class="mt-3 text-sm text-center text-black font-bold">
                     Fatimatuz Zahro’, S.Pd 
                     <br>
@@ -89,7 +92,7 @@
                 </figcaption>
             </figure>
             <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
+                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/gurusmp2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
                 <figcaption class="mt-3 text-sm text-center text-black font-bold">
                     Linatun Nafisah
                     <br>
@@ -97,7 +100,7 @@
                 </figcaption>
             </figure>
             <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
+                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/gurusmp3.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
                 <figcaption class="mt-3 text-sm text-center text-black font-bold">
                     Zubaidah Lestiawati, S.Pd 
                     <br>
@@ -105,7 +108,7 @@
                 </figcaption>
             </figure>
             <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
+                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/gurusmp4.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
                 <figcaption class="mt-3 text-sm text-center text-black font-bold">
                     Ambar Kismiyarsih, S.Pd 
                     <br>
@@ -113,7 +116,7 @@
                 </figcaption>
             </figure>
             <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
+                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/gurusmp5.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
                 <figcaption class="mt-3 text-sm text-center text-black font-bold">
                     Adhiati Susani, S.Sos 
                     <br>
@@ -121,7 +124,7 @@
                 </figcaption>
             </figure>
             <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
+                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/gurusmp6.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
                 <figcaption class="mt-3 text-sm text-center text-black font-bold">
                     Yenny Kurniawati, S.Pd 
                     <br>
@@ -129,67 +132,16 @@
                 </figcaption>
             </figure>
             <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
+                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/gurusmp7.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
                 <figcaption class="mt-3 text-sm text-center text-black font-bold">
                     Fahri Husaini, S.Pd 
                     <br>
                     <span class="text-xs text-gray-400">Guru PJOK & Kabid.Kesiswaan </span>
                 </figcaption>
-            </figure>
-            <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
-                <figcaption class="mt-3 text-sm text-center text-black font-bold">
-                    Humam Nasirudin, S.Pd 
-                    <br>
-                    <span class="text-xs text-gray-400">Guru Informatika & TU </span>
-                </figcaption>
-            </figure>
-            <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
-                <figcaption class="mt-3 text-sm text-center text-black font-bold">
-                    Asri Kusuma S H, S.Pd 
-                    <br>
-                    <span class="text-xs text-gray-400">Guru MTK & Bendahara</span>
-                </figcaption>
-            </figure>
-            <figure class="max-w-lg">
-                <img class="h-auto w-52 max-h-96 rounded-lg" src="/img/guru2.png" alt="Guru 1"> <!-- Ukuran 10x12 -->
-                <figcaption class="mt-3 text-sm text-center text-black font-bold">
-                    Jannahta Firizki K, S.Pd 
-                    <br>
-                    <span class="text-xs text-gray-400">Guru IPS & TIK</span>
-                </figcaption>
-            </figure>
-          
+            </figure>       
         </div>
     </div>
   </section>
-  
-  
-    <!-- Pengumuman Terbaru -->
-    <div class="container mx-auto px-6 py-12">
-      <h2 class="text-3xl font-bold text-center text-green-700 mb-6">Pengumuman Terbaru</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Pengumuman 1 -->
-        <div class="bg-white shadow-lg rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2">Pengumuman Ujian</h3>
-          <p class="text-gray-700">Ujian tengah semester akan dilaksanakan pada tanggal 20 September 2024.</p>
-          <a href="#" class="text-green-600 hover:underline mt-4 block">Baca selengkapnya</a>
-        </div>
-        <!-- Pengumuman 2 -->
-        <div class="bg-white shadow-lg rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2">Agenda Ekstrakurikuler</h3>
-          <p class="text-gray-700">Jadwal latihan futsal setiap hari Sabtu pukul 07:30 di lapangan sekolah.</p>
-          <a href="#" class="text-green-600 hover:underline mt-4 block">Baca selengkapnya</a>
-        </div>
-        <!-- Pengumuman 3 -->
-        <div class="bg-white shadow-lg rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2">Penerimaan Siswa Baru</h3>
-          <p class="text-gray-700">Pendaftaran siswa baru tahun ajaran 2024/2025 sudah dibuka!</p>
-          <a href="#" class="text-green-600 hover:underline mt-4 block">Baca selengkapnya</a>
-        </div>
-      </div>
-    </div>
   
     <!-- Galeri Foto -->
     <div class="container mx-auto px-6 py-12">

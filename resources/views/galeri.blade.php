@@ -5,16 +5,16 @@
     </h1>
     <div class="flex flex-wrap justify-center gap-6 max-w-full">
         <figure class="flex flex-col items-center">
-            <img class="h-60 w-60 rounded-lg" src="/img/galeri.jpeg" alt="image description">
-            <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Fotografi</figcaption>
+            <img class="h-60 w-50 rounded-lg" src="/img/galerisd1.png" alt="image description">
+            <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Kreasi Siswa </figcaption>
         </figure>
         <figure class="flex flex-col items-center max-w-lg">
-            <img class="h-60 w-60 rounded-lg" src="/img/galeri2.jpeg" alt="image description">
-            <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Lomba Futsal</figcaption>
+            <img class="h-60 w-50 rounded-lg" src="/img/galerisd2.png" alt="image description">
+            <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Upacara Bendera</figcaption>
         </figure>
         <figure class="flex flex-col items-center max-w-lg">
-            <img class="h-60 w-60 rounded-lg" src="/img/galeri3.jpeg" alt="image description">
-            <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Kegiatan Belajar Mengajar
+            <img class="h-60 w-50 rounded-lg" src="/img/galerisd3.png" alt="image description">
+            <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Jum'at Sehat
             </figcaption>
         </figure>
     </div>

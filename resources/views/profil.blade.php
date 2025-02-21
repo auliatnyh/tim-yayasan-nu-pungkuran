@@ -20,7 +20,7 @@
                 alt="image description">
             <div class="col-span-2">
                 <p class="mb-10 px-20 justify-between text-lg font-normal text-gray-500 dark:text-gray-400">   
-                    <br> <br> SD ISLAM NU PUNGKURAN adalah sekolah dasar swasta yang terletak di Kec. Semarang Tengah, Kota Semarang, Jawa Tengah. Didirikan pada 1 Januari 1936 dengan Nomor SK Pendirian 420/4220/2012 dan berada di bawah naungan Kementerian Pendidikan dan Kebudayaan. Sekolah ini melayani 102 siswa dengan dukungan dari 9 guru profesional. Kepala Sekolah saat ini adalah Nur Istiqomah, dan Sulistyoningsih berperan sebagai operator. Kami berkomitmen untuk mencerdaskan anak bangsa dan berkontribusi positif bagi komunitas di wilayah kami.
+                    <br> <br> Yayasan ISLAM NU PUNGKURAN adalah sekolah dasar swasta yang terletak di Kec. Semarang Tengah, Kota Semarang, Jawa Tengah. Didirikan pada 1 Januari 1936 dengan Nomor SK Pendirian 420/4220/2012 dan berada di bawah naungan Kementerian Pendidikan dan Kebudayaan. Sekolah ini melayani 102 siswa dengan dukungan dari 9 guru profesional. Kepala Sekolah saat ini adalah Nur Istiqomah, dan Sulistyoningsih berperan sebagai operator. Kami berkomitmen untuk mencerdaskan anak bangsa dan berkontribusi positif bagi komunitas di wilayah kami.
                 </p>
             </div>
         </div>
@@ -30,7 +30,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mx-20">
             <div class="col-span-2">
                 <p class="mb-10 px-20 justify-between text-lg font-normal text-gray-500 dark:text-gray-400">   
-                    <br> <br> Yayasan SD ISLAM NU PUNGKURAN didirikan pada tanggal 1 Januari 1936, sebagai wujud komitmen terhadap pendidikan di wilayah Kec. Semarang Tengah, Kota Semarang, Jawa Tengah. Dengan Nomor SK Pendirian 420/4220/2012, yayasan ini bernaung di bawah Kementerian Pendidikan dan Kebudayaan, dan telah berperan aktif dalam mencerdaskan anak bangsa selama lebih dari delapan dekade. Sejak awal berdirinya, yayasan ini telah berfokus pada pengembangan karakter dan akademik siswa, serta berkomitmen untuk memberikan kontribusi positif bagi masyarakat sekitar.
+                    <br> <br> Yayasan ISLAM NU PUNGKURAN didirikan pada tanggal 1 Januari 1936, sebagai wujud komitmen terhadap pendidikan di wilayah Kec. Semarang Tengah, Kota Semarang, Jawa Tengah. Dengan Nomor SK Pendirian 420/4220/2012, yayasan ini bernaung di bawah Kementerian Pendidikan dan Kebudayaan, dan telah berperan aktif dalam mencerdaskan anak bangsa selama lebih dari delapan dekade. Sejak awal berdirinya, yayasan ini telah berfokus pada pengembangan karakter dan akademik siswa, serta berkomitmen untuk memberikan kontribusi positif bagi masyarakat sekitar.
                 </p>
             </div>
             <img class="mb-3 px-20 h-30 w-29 shadow-lg rounded-lg shadow-gray-500/20" src="/img/profilyayasan.png" alt="image description">

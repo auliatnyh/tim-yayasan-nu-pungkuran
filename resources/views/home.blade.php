@@ -55,7 +55,7 @@
         </h3>
         <h3 class="py-5 text-center text-3xl font-bold text-green-900 dark:text-gray-400">Sambutan Ketua Yayasan</h3>
         <div class="grid grid-cols-1 gap-3 sm:grid-cols-3 mx-20">
-            <img class="mb-3 px-20 h-30 w-29 shadow-lg rounded-lg shadow-gray-500/20" src="/img/kepsek.png"
+            <img class="mb-3 px-20 h-30 w-29 shadow-lg rounded-lg shadow-gray-500/20" src="/img/ketuayayasan.png"
                 alt="image description">
             <div class="col-span-2">
                 <p class="mb-10 px-20 justify-between text-lg font-normal text-gray-500 dark:text-gray-400">
@@ -69,36 +69,77 @@
         </div>
 
         <!-- Mulai setelah bagian "Sambutan Ketua Yayasan" -->
-        <h3 class="py-5 px-20 text-left text-3xl font-bold text-green-900 dark:text-gray-1000 text-center">Daya Tampung</h3>
-        <div class="grid grid-cols-1 gap-3 sm:grid-cols-4 bg-green-500 py-8 px-12 text-white mx-20 shadow-lg">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Animasi Angka</title>
+            <link rel="stylesheet" href="path/to/your/style.css"> <!-- Jika ada CSS -->
+        </head>
+        <body>
             
-            <div class="flex flex-col items-center justify-center">
-                <div class="text-4xl font-bold"><i class="fas fa-user"></i> 180</div>
-                <p class="text-lg mt-2">Siswa SD</p>
+            <h3 class="py-5 px-20 text-left text-4xl font-bold text-green-900 dark:text-gray-1000 text-center">Daya Tampung</h3>
+            <div class="grid grid-cols-1 gap-3 sm:grid-cols-4 bg-green-500 py-8 text-white w-full shadow-lg">
+                
+                <div class="flex flex-col items-center justify-center">
+                    <div class="text-5xl font-bold"><i class="fas fa-user"></i> <span id="count-sd">120</span></div>
+                    <p class="text-2xl mt-4">Siswa SD</p>
+                </div>
+        
+                <div class="flex flex-col items-center justify-center">
+                    <div class="text-5xl font-bold"><i class="fas fa-user"></i> <span id="count-smp">60</span></div>
+                    <p class="text-2xl mt-4">Siswa SMP</p>
+                </div>
+        
+                <div class="flex flex-col items-center justify-center">
+                    <div class="text-5xl font-bold"><i class="fas fa-user"></i> <span id="count-guru">25</span></div>
+                    <p class="text-2xl mt-4">Guru dan Karyawan</p>
+                </div>
+        
+                <div class="flex flex-col items-center justify-center">
+                    <div class="text-5xl font-bold"><i class="fas fa-home"></i> <span id="count-ruang">9</span></div>
+                    <p class="text-2xl mt-4">Ruang Kelas SD dan SMP</p>
+                </div>
             </div>
-
-           
-            <div class="flex flex-col items-center justify-center">
-                <div class="text-4xl font-bold"><i class="fas fa-user"></i> 192</div>
-                <p class="text-lg mt-2">Siswa SMP</p>
-            </div>
-
-           
-            <div class="flex flex-col items-center justify-center">
-                <div class="text-4xl font-bold"><i class="fas fa-user"></i> 37</div>
-                <p class="text-lg mt-2">Guru dan Karyawan</p>
-            </div>
-
-            
-            <div class="flex flex-col items-center justify-center">
-                <div class="text-4xl font-bold"><i class="fas fa-home"></i> 12</div>
-                <p class="text-lg mt-2">Ruang kelas SD dan SMP</p>
-            </div>
-        </div>
+        
+            <!-- Tambahkan kode JavaScript di sini -->
+            <script>
+                // Fungsi untuk melakukan animasi angka
+                function animateValue(element, start, end, duration) {
+                    let startTime = null;
+        
+                    function step(timestamp) {
+                        if (!startTime) startTime = timestamp;
+                        const progress = timestamp - startTime;
+                        const current = Math.min(Math.floor(progress / duration * (end - start) + start), end);
+                        element.innerHTML = current;
+                        if (current < end) {
+                            window.requestAnimationFrame(step);
+                        }
+                    }
+                    window.requestAnimationFrame(step);
+                }
+        
+                // Menggunakan Intersection Observer untuk memulai animasi saat elemen terlihat
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            if (entry.target.id === 'count-sd') animateValue(entry.target, 0, 120, 2000);
+                            if (entry.target.id === 'count-smp') animateValue(entry.target, 0, 60, 2000);
+                            if (entry.target.id === 'count-guru') animateValue(entry.target, 0, 25, 2000);
+                            if (entry.target.id === 'count-ruang') animateValue(entry.target, 0, 9, 2000);
+                            observer.unobserve(entry.target); // Menghentikan observer setelah animasi selesai
+                        }
+                    });
+                });
+                // Mengamati setiap elemen angka
+                document.querySelectorAll('#count-sd, #count-smp, #count-guru, #count-ruang').forEach(el => {
+                    observer.observe(el);
+                });
+            </script>
+        </body>   
 
         <h3 class="py-5 px-20 text-left text-3xl font-bold text-green-900 dark:text-gray-400">Berita</h3>
-        <div class="mb-10 py-3 px-20 grid grid-cols-1 md:grid-cols-3 gap-6">
-            
+        <div class="mb-10 py-3 px-20 grid grid-cols-1 md:grid-cols-3 gap-6">  
             <!-- Berita 1 -->
             <div class="flex flex-col bg-white shadow-lg rounded-lg p-4">
                 <img class="h-40 w-full object-cover rounded-lg mb-3" src="/img/berita1.png" alt="image description">
@@ -136,9 +177,6 @@
             </div>
         
         </div>
-        
-
-
 
 </body>
 
